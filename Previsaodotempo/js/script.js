@@ -19,11 +19,11 @@ async function getTempo() {
             
             <div class="card2">
                 <p>${previsao.weekday}</p>
-                <p>Rain Probability: ${previsao.rain_probability}%</p>
-                <p>Condition: ${previsao.condition}</p>
+                <p>Probabilidade de chuva: ${previsao.rain_probability}%</p>
+                <p>Condição ${previsao.condition}</p>
                 <p>Máx: ${previsao.max}<span>&#8451;</span></p>
                 <p>Min: ${previsao.min}<span>&#8451;</span></p>
-                <p>Wind Speedy: ${previsao.wind_speedy}</p>
+                <p>Velocidade do vento: ${previsao.wind_speedy}</p>
             </div>
               
         `

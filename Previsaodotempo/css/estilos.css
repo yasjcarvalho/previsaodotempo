@@ -6,6 +6,8 @@ header {
     
     width: 1085px;
     height: 150px;
+    font-family: 'Poppins'; 
+
 }
 
 .menu{
@@ -17,16 +19,23 @@ header {
 }
 .principal{
     position: absolute;
-    top: 30px;
-    left: 120px;
-    font-size: 20px;
+    top: 50px;
+    left: 300px;
+    font-size: 40px;
+    background-color: #2c5545;
+    border-radius: 19px;
+    height: 50px;
+    width: 450px;
+    text-align: center;
+    padding-bottom: 5px;
+
 
 }
 .logo{
     position: absolute;
     
-    left: 160px;
-    top: 45px;
+    left: 40px;
+    top: 20px;
 
 }
 
@@ -68,6 +77,7 @@ body {
     height: 900px;
     position: absolute;
     background: #007155;
+    
 }
 
 .atual{
@@ -79,6 +89,7 @@ body {
     
     left: 40px;
     border-radius: 19px;
+    font-family: 'Lobster Two';
     
     
 }
@@ -99,6 +110,7 @@ body {
     width: 40px;
     width: 70px; 
     height: 70px;
+    
 }
 
 
@@ -109,18 +121,23 @@ body {
     left: 755px;
     top: 28px;
     text-align: center;
+    font-family: 'Lobster Two';
     
 }
+
 
 #data{
     position: absolute;
     bottom: 30px;
-    left: 879px;
+    left: 910px;
+    font-family: 'Lobster Two';
 }
 #hora{
     position: absolute;
     bottom: 10px;
-    left: 900px;
+    left: 927px;
+    font-family: 'Lobster Two';
+   
 }
 
 #temperatura{
@@ -153,6 +170,8 @@ position: absolute;
     background: #393939;
     margin: 0px 5px 0px 5px;
     border-radius: 19px;
+    font-family: 'Poppins'; 
+    font-size: 14px;
 }
 
 .svgtemp{
@@ -161,4 +180,6 @@ position: absolute;
     left: 810px;
 
 }
+
+
 
